@@ -19,7 +19,7 @@ public class checkNameToEmbossTest{
     public static Object[][] getNameTest() {
         return new Object[][]{
                 {"Французскаябулка", false},//0 пробелов
-                {"Французская Булка", true},//1 пробелов
+                {"Французская Булка", true},//1 пробел
                 {"Вкусная французская булка", false},//2 пробела
                 {" Булка", false},//пробел в начале
                 {"Булка ", false},//пробел в конце
